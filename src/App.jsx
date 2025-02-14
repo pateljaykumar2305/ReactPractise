@@ -9,25 +9,16 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <ul>
+    <h2>Course Goals 🚀</h2>
+    <li>📌 Master the fundamentals and beyond!</li>
+    <li>🛠️ Build projects that you’ll be proud of!</li>
+    <li>⚡ Debug like a pro—bugs fear you!</li>
+    <li>💡 Think like a problem solver, not just a coder!</li>
+    <li>🎯 Stay consistent and keep leveling up!</li>
+     </ul>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+     
     </>
   )
 }
