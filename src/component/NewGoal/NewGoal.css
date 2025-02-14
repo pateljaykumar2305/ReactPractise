@@ -1,0 +1,40 @@
+.new-goal-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.new-goal-input {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.new-goal-input:focus {
+    border-color: #2E8B57;
+}
+
+.new-goal-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.new-goal-button:hover {
+    background-color: #45a049;
+}
+
+.new-goal-button:active {
+    background-color: #3e8e41;
+}

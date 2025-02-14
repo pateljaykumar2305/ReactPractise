@@ -1,51 +1,69 @@
-/* Center the content */
+/* Reset Default Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Container */
 .app-container {
+  /* Removed height: 100vh to allow full-page scrolling */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh; /* Full viewport height */
-  text-align: center;
+  width: 100%;
+  padding: 20px; /* Some breathing room around content */
+  background-color: #f2f2f2; /* Light background */
 }
 
-/* Center the list */
-.ListofGoals {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.heading {
-  font-size: 2rem;
+/* Page Title */
+.app-title {
+  font-size: 20px;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-/* Wrapper for styling */
+/* New Goal Form */
+.new-goal-form {
+  display: flex;
+  flex-direction: column; /* Stack items on small screens */
+  width: 100%;
+  max-width: 400px;
+  gap: 10px;
+  margin-bottom: 20px; /* Spacing below form */
+}
+
+/* Input Field */
+.new-goal-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Add Goal Button */
+.new-goal-button {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Goals Container (no fixed height) */
 .goals-container {
-  background: #f8f9fa;
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
+  max-width: 400px;
 }
 
-/* Style for each goal item */
+/* Individual Goal Item */
 .goal-item {
-  display: flex;
-  align-items: center;
-  background: white;
-  padding: 0.8rem;
-  border-radius: 8px;
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
-  width: 100%; /* Ensure all list items are aligned */
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
 }

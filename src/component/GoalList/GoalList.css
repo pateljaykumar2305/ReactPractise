@@ -1,0 +1,39 @@
+/* GoalList.css */
+.goals-container {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    margin: auto; /* Center the container */
+  }
+  
+  /* Center the list */
+  .ListofGoals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for each goal item */
+  .goal-item {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    text-align: center;
+  }
+  
